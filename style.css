@@ -17,6 +17,12 @@ body{
 
 #main{
     margin-top: 100px;
+
+}
+
+.logo{
+    width: 60px;
+    margin-left: 48%;
 }
 
 .clues{
