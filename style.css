@@ -28,7 +28,9 @@ body{
 .clues{
     display: none;
     width: 90vw;
-    margin: 20px;
+    width: clamp(80vw, 85vw, 90vw);
+    
+    margin: auto;
     padding: 20px;
 }
 
