@@ -1,4 +1,59 @@
-#clue-1{
-    display: none;
+
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    color: #f9F1CD;
+    background-color: #42210B;
 }
 
+body{
+    background-color: #f9F1CD;
+    color: #42210B;
+    font-family: 'Great Vibes', cursive;
+}
+
+#main{
+    margin-top: 100px;
+}
+
+.clues{
+    display: none;
+    width: 90vw;
+    margin: 20px;
+    padding: 20px;
+}
+
+.pass-title{
+    margin: auto;
+    text-align: center;
+}
+.pass-box{
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    padding: 5px;
+    color: #f9F1CD;
+    background-color: #42210B;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link,a:visited {
+    color: #f9F1CD;
+    background-color: #42210B;
+}
+
+a:hover{
+    color: white;
+}
