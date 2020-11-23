@@ -5,6 +5,7 @@ const app = {
     butt: document.getElementById('butt-one'),
     clue1: document.getElementById('clue-1'),
     clue2: document.getElementById('clue-2'),
+    clue3: document.getElementById('clue-3'),
 }
 
 const reveal = function () {
