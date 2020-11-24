@@ -39,7 +39,7 @@ const reveal = function () {
 
         default: 
 
-        app.pass.style.backgroundColor = "red"
+        app.pass.style.backgroundColor = "white"
         app.pass.value = "KILLER"
             break;
 
