@@ -20,7 +20,7 @@
         <h1 class="pass-title">Password:</h1><br>
         <section class="pass-box">
 
-        <input class="" id="pass-one" type="text">
+        <input oninput="let p=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(p, p);" class="" id="pass-one" type="text">
         <button class="" id="butt-one" type="button">Submit</button>
         </section>
   
