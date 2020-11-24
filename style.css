@@ -1,7 +1,9 @@
 
 header{
-    width: 100%;
+    width: 100vw;
+    /*width:clamp(15%, 20%, 25%) ;*/
     text-align: center;
+    
 }
 
 body{
@@ -10,15 +12,17 @@ body{
     font-family: 'Great Vibes', cursive;
 }
 
+.main{
+    margin: auto;
+}
 
-
-.logo{
-    width:20vw;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 5%;
+#logo{
+    width:15% ;
+    margin: 5% 40% 0px 40% ;
     padding-top: 50px;
     padding-bottom: 50px;
+    position: absolute;
+    bottom: 0;
 }
 
 .logo-contain{
@@ -29,7 +33,7 @@ body{
     font-family: 'Crimson Text', serif;
     width: 15%;
     background-color: #e9e4cf;
-    color: red;
+    color:  #42210B;
     font-size: 1.5em;
 }
 

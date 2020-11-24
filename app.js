@@ -6,6 +6,7 @@ const app = {
     clue1: document.getElementById('clue-1'),
     clue2: document.getElementById('clue-2'),
     clue3: document.getElementById('clue-3'),
+    logo: document.getElementById('logo'),
 }
 
 const reveal = function () {
@@ -15,6 +16,7 @@ const reveal = function () {
         case 'MERLOT':
             app.clue1.style.display = "block";
             app.pass.style.backgroundColor = "white"
+
         break;
 
         case 'PINOT NOIR':
@@ -39,11 +41,12 @@ const reveal = function () {
 
         default: 
 
-        app.pass.style.backgroundColor = "white"
         app.pass.value = "KILLER"
             break;
 
     }
+
+    app.logo.style.position = "relative"
 
 }
 
