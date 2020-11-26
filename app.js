@@ -6,6 +6,9 @@ const app = {
     clue1: document.getElementById('clue-1'),
     clue2: document.getElementById('clue-2'),
     clue3: document.getElementById('clue-3'),
+    clue4: document.getElementById('clue-4'),
+    clue5_1: document.getElementById('clue-5.1'),
+    clue5_2: document.getElementById('clue-5.2'),
     logo: document.getElementById('logo'),
 }
 
@@ -35,7 +38,8 @@ const reveal = function () {
         break;
 
         case 'REISLING':
-                app.clue5.style.display = "block";
+                app.clue5_1.style.display = "block";
+                app.clue5_2.style.display = "block";
                 app.pass.style.backgroundColor = "white"
         break;
 
