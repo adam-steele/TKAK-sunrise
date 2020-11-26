@@ -37,7 +37,7 @@ const reveal = function () {
             app.pass.style.backgroundColor = "white"
         break;
 
-        case 'REISLING':
+        case 'RIESLING':
                 app.clue5_1.style.display = "block";
                 app.clue5_2.style.display = "block";
                 app.pass.style.backgroundColor = "white"
