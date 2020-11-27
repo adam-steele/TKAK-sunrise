@@ -46,8 +46,8 @@ body{
 
 .clues{
     display: none;
-    width: 90vw;
-    width: clamp(80vw, 85vw, 90vw);
+    width: 60%;
+   
     
     margin: auto;
     padding: 20px;
